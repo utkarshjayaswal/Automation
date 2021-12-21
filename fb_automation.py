@@ -7,16 +7,13 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.facebook.com/')
 print ("Opened facebook")
 sleep(1)
-
 username_box = driver.find_element_by_id('email')
 username_box.send_keys(usrname)
 print ("Your user name has been entered")
 sleep(1)
-
 password_box = driver.find_element_by_id('pass')
 password_box.send_keys(password)
 print ("you password has been entered")
-
 login_box = driver.find_element_by_name('login')
 login_box.click()
 print ("Done")
