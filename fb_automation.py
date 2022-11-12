@@ -1,5 +1,5 @@
-from selenium import webdriver
 from time import sleep
+from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 username = input('Enter Your Username:')  # Input your email address of facebook in the terminal
@@ -21,3 +21,4 @@ print("Done")
 input('You can type quit to exit from the program')
 driver.quit()
 print("Finished")
+ChromeDriverManager
